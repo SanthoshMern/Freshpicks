@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cart-head{
+    margin-top: 10px;
+}
+.cart{
+    width: 15rem !important;
+    border-radius: 10px !important;
+    
+}
+.cartalter{
+    margin-right: 20px;
+}
+.wrapcart{
+    padding: 150px;
+    border: 0.2px solid black;
+    background-image: url(./../assets/images/feature-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cart-btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 65, 65);
+}

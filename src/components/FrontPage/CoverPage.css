@@ -1,0 +1,72 @@
+.header{
+    background-image:url(./../various-vegetables-black-table-with-space-message.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 597px;
+}
+.heading{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    font-family: "Russo One", sans-serif;
+}
+.heading{
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+    color: #fbff00;
+}
+.text{
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.2s;
+    color: #c23111;
+    margin-left: 185px;
+    font-size: 30px;
+}
+.start {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.4s;
+    color: #e8691f;
+    margin-left: 190px;
+    margin-top: 150px;
+}
+@keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    65% {
+        transform: translateY(-17px);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-22px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@media  only screen and (max-width : 768px) {
+    .header{
+        height: 330px !important;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .text{
+        font-size: 20px;
+        margin-left: 55px !important;
+        margin-top: 20px !important;
+    }
+    .start{
+        font-size: 20px;
+        margin-left: 180px !important;
+        margin-top: 50px !important;
+    }
+
+}

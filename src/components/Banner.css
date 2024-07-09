@@ -1,0 +1,72 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.slide{
+    background-image: url(./../assets/images/Banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.slide1{
+    background-image: url(./../assets/images/Banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.BAN-FONT{
+    font-size: 60PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(33, 95, 33);
+    font-weight: 500;
+    left: 50PX;
+    margin-top: 130PX;
+    letter-spacing: 2vh;
+}
+.BAN-FONT1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #cb5439;
+    left: 50PX;
+    font-weight: 200;
+    letter-spacing: 2vh;
+}
+.BAN-DES{
+    font-size: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+}
+.ban-btn{
+    margin-left: 5PX;
+    margin-top: 60PX;
+    background-color:  rgb(33, 95, 33) !important;
+    border: none !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px !important;
+}
+.ban-btn:hover {
+    background-color: #cb5439 !important;
+}
+.ban-offer{
+    margin-top: 70px;
+    margin-left: 600PX;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    animation: bounce 2.5s infinite alternate;
+}
+@keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  }
+    */

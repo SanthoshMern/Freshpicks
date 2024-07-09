@@ -1,0 +1,87 @@
+.allign{
+    margin-bottom: 25px !important;
+    border-radius: 10px !important;
+    /* border: 0.5px solid rgb(33, 95, 33) !important; */
+}
+
+.button-list{
+    background-color:  rgb(33, 95, 33) !important;
+    border: none !important;
+    margin-left: 190px !important;
+    width: 38px;
+    height: 38px;
+    color: white;
+    border-radius: 50%;
+}
+.options2{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: absolute;
+    left:205px;
+    top:200px;
+    display: none;
+    background-color: white;
+    animation-name: slide-top;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+.options3{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: absolute;
+    left:205px;
+    top:150px;
+    display: none;
+    background-color: white;
+    animation-name: slide-top;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+.button-arr:hover{
+    background-color: #cb5439 !important;
+}
+.button-arr{
+    background-color:  rgb(33, 95, 33) !important;
+    border: none !important;
+    margin-left: 150px !important;
+    width: 38px;
+    height: 38px;
+    color: white;
+    border-radius: 50%;
+}
+
+.newimg1:hover .options2 {
+    display: block;
+    top: 100px;
+
+}
+.newimg1:hover .options3 {
+    display: block;
+    top:50px;
+}
+.newimg1:hover .options2:hover {
+    color: rgb(202, 0, 0);
+    border: 2px solid  rgb(202, 0, 0);
+}
+.newimg1:hover .options3:hover {
+    color: rgb(202, 0, 0);
+    border: 2px solid  rgb(202, 0, 0);
+}
+@keyframes slide-top {
+    from {
+      margin-top: 0px;
+    }
+    to {
+      margin-top: -50px;
+    }
+  }
+
+  @media only screen and (max-width : 600px) {
+    .button-list{
+        margin-left: 100px !important;
+    }
+  }

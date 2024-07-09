@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wide{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.slide{
+    position: relative;
+    background-image: url(./../assets/images/Banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 528px;
+    width: 100%;
+}
+.slide1{
+    position: relative;
+    background-image: url(./../assets/images/Banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 528px;
+}
+.BAN-FONT{
+    position: absolute;
+    font-size: 60PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(33, 95, 33);
+    font-weight: 500;
+    letter-spacing: 2vh;
+    margin-top: 180px;
+}
+.BAN-FONT1{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #cb5439;
+    font-weight: 200;
+    letter-spacing: 2vh;
+    margin-top: 100px;
+}
+.BAN-DES{
+    position: absolute;
+    font-size: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 320px;
+}
+.ban-btn{
+    position: absolute;
+    margin-top: 400PX;
+    margin-left: 130px;
+    background-color:  rgb(33, 95, 33) !important;
+    border: none !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px !important;
+    font-size: 15px;
+}
+.ban-btn:hover {
+    background-color: #cb5439 !important;
+}
+.ban-offer{
+    margin-top: 160px;
+    margin-left: 550PX;
+    width: 150px;
+    height: 150px;
+    animation: bounce 2.5s infinite alternate;
+}
+@keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  }
+   
+  @media  only screen and (max-width : 600px) {
+    .BAN-FONT{
+        margin-top: 90px !important;
+        font-size: large;
+    }
+    .BAN-FONT1 {
+      margin-top: 60px !important;
+      font-size: large;
+    }
+    .ban-offer{
+        display: none !important;
+    }
+    .BAN-DES{
+        margin-top: 120px;
+        font-size: 10px;
+    }
+    .ban-btn{
+        margin-top: 170px;
+        font-size: 7px;
+    }
+    .slide{
+        width: 100%;
+        height: 140px !important;
+    }
+    .slide1{
+        width: 100%;
+        height: 140px !important;
+    }
+}

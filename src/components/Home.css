@@ -1,0 +1,6 @@
+.homes{
+    display: none;
+}
+.homes1:hover .homes{
+    display: block;
+}
