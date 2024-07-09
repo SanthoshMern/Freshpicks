@@ -1,2 +1,2 @@
 # Freshpicks
-Online Veg-Fruits Ordering Website
+Vegetables-Fruits Model Website
